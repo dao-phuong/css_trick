@@ -17,8 +17,9 @@ Just note tricks in css to reference
     </style>
   <h3 class="pink-text blue-text">Hello World!</h3>
 ```
-  ↓↓
-  <h3 style="color: bule; font-size">Hello World!</h3> (Color is blue, Markdown can't change text color, man)
+            ↓↓
+    <h3 style="color: bule; font-size">Hello World!</h3> (Color is blue, Markdown can't change text color, man)
+  
   
   2. Id selector
     Id declarations override class declarations, regardless of where they are declared in your style element CSS.
@@ -40,6 +41,7 @@ Just note tricks in css to reference
    ↓↓
    <h3 style="color: orange">Hello World!</h3>  (Color is orange)
    
+   
    3. Inline style
    In-line styles will override all the CSS declarations in your style element.
    
@@ -57,8 +59,9 @@ Just note tricks in css to reference
   </style>
   <h3 id="orange-text" class="pink-text blue-text" style="color: white">Hello World!</h3>
    ```
-   ↓↓
-   <h3 style="color: white">Hello World!</h3> (White color)
+            ↓↓
+    <h3 style="color: white">Hello World!</h3> (White color)
+   
    
    4. Using Important
     When you absolutely need to be sure that an element has specific CSS, you can use !important
@@ -77,5 +80,5 @@ Just note tricks in css to reference
     </style>
     <h3 id="orange-text" class="pink-text blue-text" style="color: white">Hello World!</h3>
     ```
-    ↓↓
+              ↓↓
     <h3 style="color: pink">Hello World!</h3> (Pink color)
